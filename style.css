@@ -72,27 +72,13 @@ body{
     letter-spacing: 1px;
 }
 
-.rulesPage{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    visibility: hidden;
-}
 .container{
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.imgcontainer{
-    flex: 1;
-    background: url(rules.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-}
+
 .backbtn{
     font-size: 35px;
     background: none;
@@ -110,15 +96,8 @@ body{
     font-family: 'Baloo 2', cursive;
     margin-top: 25px;
 }
-.ruleslist{
-    width: 60%;
-    margin: auto;
-    margin-top: 0;
-    color: aliceblue;
-    font-size: 25px;
-    font-family: 'Baloo 2', cursive;
-}
-.startBtn:hover,.rulesBtn:hover,.backbtn:hover{
+
+.startBtn:hover,.backbtn:hover{
     transform: scale(1.1);
 }
 
@@ -200,12 +179,7 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-    .rulesPage{
-        flex-direction: column;
-    }
-    .ruleslist{
-        font-size: 19px;
-    }
+
     .imgcontainer{
         min-height: 50vh;
         background-size: 400px 400px;
